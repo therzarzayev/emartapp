@@ -11,4 +11,3 @@ COPY --from=BUILD_IMAGE /usr/src/app/target/book-work-0.0.1-SNAPSHOT.jar ./book-
 
 EXPOSE 9000
 ENTRYPOINT ["java","-jar","book-work-0.0.1.jar"]
-# Test
